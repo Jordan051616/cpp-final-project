@@ -27,12 +27,12 @@ int main() {
 
 
 void showIntro() {
-    cout << "🧭 Welcome to the Text Adventure Game!" << endl;
+    cout << " Welcome to the Text Adventure Game!" << endl;
     cout << "Type 'help' to see available commands." << endl;
 }
 
 void showHelp() {
-    cout << "📜 Commands:\n";
+    cout << " Commands:\n";
     cout << " - explore : Look around the current area\n";
     cout << " - fight   : Fight a monster (risky!)\n";
     cout << " - exit    : Exit the game\n";
