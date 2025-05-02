@@ -61,7 +61,7 @@ void fightMonster() {
         cout << "You slay the goblin using your " << inventory[itemCount - 1] << "!\n";
         saveLog("Fought and defeated a goblin.");
     } else {
-        cout << "You have no weapon! The goblin defeats you. 😵\n";
+        cout << "You have no weapon! The goblin defeats you.";
         saveLog("Lost a fight to a goblin.");
     }
 }
